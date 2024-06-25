@@ -30,7 +30,7 @@ async def clear_collections(mongo_client):
 
 @pytest.fixture
 def product_id() -> UUID:
-    return UUID("fce6cc37-10b9-4a8e-a8b2-977df327001a")
+    return UUID("73e5b900d2aa676261b798dc1946f045548a")
 
 
 @pytest.fixture

@@ -7,3 +7,7 @@ class ProductIn(BaseSchemaMixin):
     quantity: int = Field(..., description="Quantity Product")
     price: float = Field(..., description="Price product")
     status: bool = Field(..., description="Status product")
+
+
+class ProductOut(ProductIn):
+    ...
